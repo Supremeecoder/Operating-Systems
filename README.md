@@ -2,8 +2,9 @@
 A Comparative Study for Optimized Process Execution
 
 #Group Members:
-1.Imdadul Sk (CS2511)
-2.Himanshu Kushwaha (CS2510)
+1. Imdadul Sk (CS2511)
+2. Himanshu Kushwaha (CS2510)
+
 
 #Problem Statement:
 In modern Operating Systems, the CPU scheduler must make split-second decisions to manage ever-increasing computational complexity. Traditional, static scheduling strategies often fail to balance throughput, response time, and energy efficiency in high-demand environments.
