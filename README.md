@@ -1,22 +1,22 @@
-**ML Based CPU Scheduler**
+**ML Based CPU Scheduler** :
 A Comparative Study for Optimized Process Execution
 
-#Group Members:
+__Group Members__:
 1. Imdadul Sk (CS2511)
 2. Himanshu Kushwaha (CS2510)
 
 
-#Problem Statement:
+__Problem Statement__:
 
 In modern Operating Systems, the CPU scheduler must make split-second decisions to manage ever-increasing computational complexity. Traditional, static scheduling strategies often fail to balance throughput, response time, and energy efficiency in high-demand environments.
 
 
-#Solution:
+__Solution__:
 
 This project investigates the integration of Machine Learning into CPU scheduling to move beyond fixed-policy constraints. By comparing **Support Vector Machines (SVM)**, **Logistic Regression**, **SGD Classifiers**, and **Random Forest**, this system dynamically predicts the most effective scheduling method for incoming process requests. The goal is to optimize critical performance metrics—including "Turnaround Time", "Throughput", and "Waiting Time".
 
 
-#The Process Life Cycle:
+__The Process Life Cycle__:
 
 The scheduler manages processes by simulating the standard state transitions found in uniprocessor systems:
 1. **New**: New process requests are initialized with specific Burst Times and Priorities.
@@ -26,7 +26,7 @@ The scheduler manages processes by simulating the standard state transitions fou
 5. **Terminated**: Once execution is complete, the process lifecycle is visualized on a Gantt Chart.
 
 
-#Why Compare Multiple ML Models?
+__Why Compare Multiple ML Models?__
 
 The focus of this project is to determine which mathematical approach best handles the complexity of modern scheduling. Since different machine learning models respond uniquely to different data distributions, a comparative approach is essential to find the optimal solution.
 
