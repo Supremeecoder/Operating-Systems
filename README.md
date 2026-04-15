@@ -7,14 +7,17 @@ A Comparative Study for Optimized Process Execution
 
 
 #Problem Statement:
+
 In modern Operating Systems, the CPU scheduler must make split-second decisions to manage ever-increasing computational complexity. Traditional, static scheduling strategies often fail to balance throughput, response time, and energy efficiency in high-demand environments.
 
 
 #Solution:
+
 This project investigates the integration of Machine Learning into CPU scheduling to move beyond fixed-policy constraints. By comparing **Support Vector Machines (SVM)**, **Logistic Regression**, **SGD Classifiers**, and **Random Forest**, this system dynamically predicts the most effective scheduling method for incoming process requests. The goal is to optimize critical performance metrics—including "Turnaround Time", "Throughput", and "Waiting Time".
 
 
 #The Process Life Cycle:
+
 The scheduler manages processes by simulating the standard state transitions found in uniprocessor systems:
 1. **New**: New process requests are initialized with specific Burst Times and Priorities.
 2. **Ready**: Processes are held in a queue, awaiting a scheduling decision.
@@ -24,6 +27,7 @@ The scheduler manages processes by simulating the standard state transitions fou
 
 
 #Why Compare Multiple ML Models?
+
 The focus of this project is to determine which mathematical approach best handles the complexity of modern scheduling. Since different machine learning models respond uniquely to different data distributions, a comparative approach is essential to find the optimal solution.
 
 1. Data-Model Compatibility: Different datasets have different underlying patterns. By comparing multiple models, we can identify which architecture (e.g., the decision branches of Random Forest vs. the hyperplanes of SVM) best captures the relationship between process features and execution efficiency.
