@@ -160,9 +160,15 @@ while i < len(plot_df) or queue or current_process is not None:
     tq = quantum[idx]
     algo = plot_preds[idx]
 
+    #Time until next process arrives
+    next_arrival = arrival[i] if i < len(arrival) else float('inf')
+    time_slice = next_arrival - time
+
     if algo == 3:
-        run_time = min(tq, remaining_bt[idx])
-    else:
+        run_time = min(tq, remaining_bt[idx], time_slice)
+    elif algo == 2:
+        run_time = min(remaining_bt[idx], time_slice)
+    else: 
         run_time = remaining_bt[idx]
 
     start_time = time
